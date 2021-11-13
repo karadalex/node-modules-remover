@@ -1,5 +1,6 @@
+#! /usr/bin/env node
+
 const fs = require("fs")
-const path = require("path");
 const cp = require("child_process");
 
 const target = process.argv[2]
@@ -13,7 +14,7 @@ function getFilesListInDirent(target) {
 
 getFilesListInDirent(target).forEach(file => {
   let filePath = `${cwd}/${target}/${file.name}`
-  console.log(filePath, file.isDirectory() ? "directory" : "file")
+  // console.log(filePath, file.isDirectory() ? "directory" : "file")
 
   if (file.isDirectory()) {
     process.chdir(filePath)

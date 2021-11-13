@@ -1,8 +1,9 @@
 {
-  "name": "nmr",
-  "version": "0.0.1",
-  "description": "CLI to easily clean up node_modules from multiple projects inside a directory",
+  "name": "nmrc",
+  "version": "0.1.0",
+  "description": "CLI to easily clean up node_modules concurrently from multiple projects inside a directory",
   "main": "index.js",
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
