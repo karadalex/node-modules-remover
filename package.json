@@ -1,0 +1,17 @@
+{
+  "name": "node-modules-remover",
+  "version": "0.0.1",
+  "description": "CLI to easily clean up node_modules from multiple projects inside a directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node_modules",
+    "remover",
+    "clean",
+    "cli"
+  ],
+  "author": "Alexios Karadimos",
+  "license": "MIT"
+}
