@@ -1,5 +1,5 @@
 {
-  "name": "node-modules-remover",
+  "name": "nmr",
   "version": "0.0.1",
   "description": "CLI to easily clean up node_modules from multiple projects inside a directory",
   "main": "index.js",
