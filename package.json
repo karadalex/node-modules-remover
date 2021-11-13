@@ -11,8 +11,13 @@
     "node_modules",
     "remover",
     "clean",
-    "cli"
+    "cli",
+    "concurrently"
   ],
   "author": "Alexios Karadimos",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karadalex/node-modules-remover.git"
+  }
 }
