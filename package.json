@@ -1,6 +1,6 @@
 {
   "name": "nmrc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI to easily clean up node_modules concurrently from multiple projects inside a directory",
   "main": "index.js",
   "bin": "./index.js",
